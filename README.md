@@ -18,6 +18,7 @@ This demo project of to-do list is built using Django REST Framework for API, Po
 - POST /api/todo-lists/<todo_list_id>/tasks/ : creating a new task in a list (list id is generated on creation)
 - PUT /api/todo-lists/<todo_list_id>/tasks/<task_id>/ : updating a task in a list
 - DELETE /api/todo-lists/<todo_list_id>/tasks/<task_id>/ : deleting a task in a list
+- NOTE: add the access_token of the user (which is generated after login) in the header as "Authorization": "Bearer access_token" in all the requests
 
 ## Getting Started
 To get started with the project, use the following commands
